@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jybjones/ghpages-workflow#readme",
   "devDependencies": {
-    "babel": "^5.3.1"
+    "babel": "^5.3.1",
+    "bowcat": "0.0.4"
   }
 }
