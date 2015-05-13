@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jybjones/ghpages-workflow/issues"
   },
-  "homepage": "https://github.com/jybjones/ghpages-workflow#readme"
+  "homepage": "https://github.com/jybjones/ghpages-workflow#readme",
+  "devDependencies": {
+    "babel": "^5.3.1"
+  }
 }
