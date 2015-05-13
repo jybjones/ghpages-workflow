@@ -1,0 +1,28 @@
+{
+  "name": "ghpages-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/.bin/hs -a localhost -p $((RANDOM + 10000)) -o",
+    "build": "./build.sh",
+    "start": "npm run build; npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jybjones/ghpages-workflow.git"
+  },
+  "author": "Jennifer jones <jybjones@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jybjones/ghpages-workflow/issues"
+  },
+  "homepage": "https://github.com/jybjones/ghpages-workflow#readme",
+  "devDependencies": {
+    "babel": "^5.3.1",
+    "bowcat": "0.0.4",
+    "jade": "^1.9.2",
+    "node-sass": "^3.1.0"
+  }
+}
