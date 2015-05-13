@@ -24,7 +24,7 @@ src/_styles/main.scss public/css/main.css
 ./node_modules/.bin/babel src --out-dir public -s inline
 
 # concat bower_components to lib directory
-.node_modules/.bin/bowcat . -o public/lib -m
+./node_modules/.bin/bowcat . -o public/lib -m
 
 # clean unneeded files
 rm -rf public/_styles \
