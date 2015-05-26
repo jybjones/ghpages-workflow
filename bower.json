@@ -1,9 +1,9 @@
 {
   "name": "ghpages-workflow",
   "version": "1.0.0",
-  "homepage": "https://github.com/jybjones/ghpages-workflow",
+  "homepage": "https://github.com/NSS-Cohort-9/ghpages-workflow",
   "authors": [
-    "Jennifer Jones <jybjones@gmail.com>"
+    "Scott Humphries <scott@sscotth.io>"
   ],
   "main": "index.html",
   "license": "MIT",
